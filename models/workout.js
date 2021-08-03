@@ -40,6 +40,10 @@ const WorkoutSchema = new Schema({
                 required: "Reps are required",
 
             }
+        },
+
+        distance: {
+            type: Number,
         }
 
     }
