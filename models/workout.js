@@ -22,7 +22,7 @@ const WorkoutSchema = new Schema({
 
             },
             duration: {
-                type: String,
+                type: Number,
 
             },
 
@@ -44,6 +44,7 @@ const WorkoutSchema = new Schema({
 
         distance: {
             type: Number,
+            required: "Distance is required",
         }
 
     }
