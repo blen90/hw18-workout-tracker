@@ -24,7 +24,7 @@ const config = {
   useFindAndModify: false 
 }
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", config);
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout-tracker", config);
 
 
 app.listen(PORT, () => {
