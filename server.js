@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-app.use(require('./routes/api'));
+app.use(require('./routes/api-routes'));
 app.use(require('./routes/html'));
 
 const config = { 
