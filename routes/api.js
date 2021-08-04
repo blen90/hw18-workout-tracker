@@ -1,15 +1,13 @@
 const router = require("express").Router();
 const Workout = require("../models/Workout.js");
 
-
-
-//Render last workout
+//Render last workout and adding total duration
 router.get("/api/workouts", (req, res) => {
-    console.log("route hit")
+    console.log("route hit");
     Workout.aggregate([
         {$addFields:
-            {'totalDuration':
-                { $sum: '$exercises.duration' }
+            {"totalDuration":
+                { $sum: "$exercises.duration" }
             }
         }
     ])
@@ -19,7 +17,7 @@ router.get("/api/workouts", (req, res) => {
             res.json(dbWorkout);
         })
         .catch(err => {
-            console.log('error', err)
+            console.log("error", err)
             res.status(400).json(err);
         });
 });
@@ -27,6 +25,7 @@ router.get("/api/workouts", (req, res) => {
 
 //Create workout
 router.post("/api/workouts", ({ body }, res) => {
+    console.log("route hit");
     Workout.create(body)
         .then(dbWorkout => {
             res.json(dbWorkout);
@@ -40,6 +39,7 @@ router.post("/api/workouts", ({ body }, res) => {
 
 //Add Exercise by ID
 router.put("/api/workouts/:id", ({ body, params }, res) => {
+    console.log("route hit");
     Workout.findOneAndUpdate(
         { _id: params.id },
         { $push: { exercises: body } },
@@ -54,14 +54,14 @@ router.put("/api/workouts/:id", ({ body, params }, res) => {
 });
 
 
-//Get Range
+//Get Range for dashboard and adding total duration
 
-router.get('/api/workouts/range', (req, res) => {
+router.get("/api/workouts/range", (req, res) => {
     console.log("route hit")
     Workout.aggregate([
         {$addFields:
-            {'totalDuration':
-                { $sum: '$exercises.duration' }
+            {"totalDuration":
+                { $sum: "$exercises.duration" }
             }
         }
     ])
@@ -71,7 +71,7 @@ router.get('/api/workouts/range', (req, res) => {
             res.json(dbWorkout);
         })
         .catch(err => {
-            console.log('error', err)
+            console.log("error", err)
             res.status(400).json(err);
         });
 });
