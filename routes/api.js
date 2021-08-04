@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const Workout = require("../models/Workout");
+const Workout = require('../models/Workout');
 
 //Render last workout and adding total duration
 router.get("/api/workouts", (req, res) => {
