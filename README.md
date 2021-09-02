@@ -1,28 +1,59 @@
-# hw18-workout-tracker
+# Workout Tracker 
 
-This app gives the user the opportunity to create a workout, add different exercises and keep track of distance, weight lifted, duration and reps. I
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/blen90/workout-tracker/)
 
----
+# Description
+
+This app gives the user the opportunity to create a workout, add different exercises and keep track of distance, weight lifted, duration and reps.
+
 
 ## Deployed link to the app on Heroku
 
 https://quiet-crag-39562.herokuapp.com/?id=610b4ad83d6a8d001502b06a
 
----
-
-## My task
-
-My task for this homework was to create the backend routes and models for a Workout Tracker. I was provided the frontend code and I had to create the backend code to make the pages render correctly. 
-
-This app uses MongoDB, Mongoose, Node.js packages and was deployed through Mongo Atlas and Heroku. 
-
----
-## Screenshot of Workout Tracker
+## Screenshots of Workout Tracker
 
 ![Workout Tracker](workout-tracker-screenshot.jpg)
 
 
 ![Workout Tracker](workout-tracker-screenshot1.jpg)
 
----
-### Created by Blenda Orellana
+
+# Table of Contents
+    
+* [Usage](#usage)
+
+* [License](#license)
+
+* [Contributing](#contributing)
+
+* [Technology](#technology)
+
+* [Questions](#questions)
+
+# Usage
+
+The user can add different exercises to the workout. This app will keep track of the user's workouts and give the user a summary of the type of exercises they have perfomed, distance, weight lifted, duration and reps. It also gives the user a graph of duration and pounds lifted in the last 6 days.
+
+# License 
+
+This project is governed by: MIT License
+
+# Contributing
+
+Blenda Orellana
+
+# Technology
+
+* MongoDB
+* Mongoose
+* Node
+* Express
+* Mongo Atlas
+* Heroku
+
+# Questions
+
+If you have any questions about the repo or the app please feel free to contact me
+ * Email: blen.or90@gmail.com
+ * Github: https://github.com/blen90
