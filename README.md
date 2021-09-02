@@ -41,14 +41,6 @@ Visit the deployed app and start a workout on the following link: https://quiet-
 
 The user can add different exercises to the workout. This app will keep track of the user's workouts and give the user a summary of the type of exercises they have perfomed, distance, weight lifted, duration and reps. It also gives the user a graph of duration and pounds lifted in the last 6 days.
 
-# License 
-
-This project is governed by: MIT License
-
-# Contributing
-
-Blenda Orellana
-
 # Technology
 
 * MongoDB
@@ -57,6 +49,15 @@ Blenda Orellana
 * Express
 * Mongo Atlas
 * Heroku
+
+
+# License 
+
+This project is governed by: MIT License
+
+# Contributing
+
+Blenda Orellana
 
 # Questions
 
