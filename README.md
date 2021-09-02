@@ -29,7 +29,7 @@ https://quiet-crag-39562.herokuapp.com/?id=610b4ad83d6a8d001502b06a
 
 * [License](#license)
 
-* [Contributing](#contributing)
+* [Contributors](#contributors)
 
 * [Questions](#questions)
 
@@ -55,7 +55,7 @@ The user can add different exercises to the workout. This app will keep track of
 
 This project is governed by: MIT License
 
-# Contributing
+# Contributors
 
 Blenda Orellana
 
