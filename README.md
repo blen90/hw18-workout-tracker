@@ -20,16 +20,22 @@ https://quiet-crag-39562.herokuapp.com/?id=610b4ad83d6a8d001502b06a
 
 
 # Table of Contents
+
+* [Installation](#installation)
     
 * [Usage](#usage)
-
-* [License](#license)
 
 * [Contributing](#contributing)
 
 * [Technology](#technology)
 
+* [License](#license)
+
 * [Questions](#questions)
+
+# Installation
+
+Visit the deployed app and start a workout on the following link: https://quiet-crag-39562.herokuapp.com/?id=610b4ad83d6a8d001502b06a
 
 # Usage
 
