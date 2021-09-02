@@ -25,11 +25,11 @@ https://quiet-crag-39562.herokuapp.com/?id=610b4ad83d6a8d001502b06a
     
 * [Usage](#usage)
 
-* [Contributing](#contributing)
-
 * [Technology](#technology)
 
 * [License](#license)
+
+* [Contributing](#contributing)
 
 * [Questions](#questions)
 
