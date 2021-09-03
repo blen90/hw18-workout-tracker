@@ -7,7 +7,7 @@
 This app gives the user the opportunity to create a workout, add different exercises and keep track of distance, weight lifted, duration and reps.
 
 
-## Deployed link to the app on Heroku
+## Deployed App link 
 
 https://quiet-crag-39562.herokuapp.com/?id=610b4ad83d6a8d001502b06a
 
@@ -49,7 +49,6 @@ The user can add different exercises to the workout. This app will keep track of
 * Express
 * Mongo Atlas
 * Heroku
-
 
 # License 
 
